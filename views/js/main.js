@@ -441,14 +441,14 @@ var resizePizzas = function(size) {
 
     // Micro Optimization: using "getElementsByClassName" instead of "querySelector"
     var $randomPizzaContainer = document.getElementsByClassName("randomPizzaContainer");
-
-    // Fix FSL issue
-    // (old code was trigger "layout" inside the loop)
     var nRandomPizzaContainer = $randomPizzaContainer.length;
 
+    // Optimize script logic by using percentage instead of pixel
+    // (old code was calculator actual pixel)
+    // 
+    // and it also fix FSL issue
+    // (old code was trigger "layout" inside the loop)
     for (var i = 0; i < nRandomPizzaContainer; i++) {
-      // Optimize script logic by using percentage instead of pixel
-      // (old code was calculator actual pixel)
       $randomPizzaContainer[i].style.width = newWidthPercent + "%";
     }
   }
