@@ -505,8 +505,7 @@ function updatePositions() {
 
   // Micro Optimization:
   // - Using "getElementsByClassName" instead of "querySelector"
-  // - Use "++" operator instead of modular
-  // - Create "nItems" variable to contain number of item instead of
+  // - Use "++" operator instead of "%"
   var items = document.getElementsByClassName('mover');
   var nItems = items.length;
   for (var i = 0, j = 0; i < nItems; i++) {
