@@ -1,0 +1,8 @@
+# dependency
+node_modules
+
+# backup / note / debug
+bk
+README*.md
+!README-*.md
+css/style.css.map
