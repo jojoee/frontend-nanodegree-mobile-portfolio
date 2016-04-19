@@ -500,7 +500,7 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  // Fix FSL issue by moving it out from "for" looop
+  // Fix FSL issue by moving it out from "for" loop
   var topOffset = document.body.scrollTop;
 
   // Micro Optimization:
@@ -534,7 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
 
   // Optimize script logic
-  // general only pizza that is located on the screen by checking browser height
+  // general only visible pizza by checking browser height
   // (old code was general all 200 pizzas, that will create more work for browser when resize the pizza)
   var browserHeight = window.innerHeight;
   for (var i = 0; i < 200; i++) {
