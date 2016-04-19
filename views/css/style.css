@@ -33,6 +33,20 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+
+  /**
+   * Using "will-change" to hint to browser about
+   * the kind of changes to be expected on an element
+   *
+   * https://developer.mozilla.org/en/docs/Web/CSS/will-change
+   */
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .randomPizzaContainer {
