@@ -20,7 +20,7 @@ Make it render with a consistent frame-rate at 60fps when scrolling and time to 
 Open `views/pizza.html` file in your browser or review online [here](http://jojoee.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html)
 
 - [x] FSL issues - [link 1](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L446-453), [link 2](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L503-504)
-- [x] Micro Optimization - [link 1](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L343-357), [link 2](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L442-443), [link 3](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L506-509)
+- [x] Micro Optimization - [link 1](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L343-357), [link 2](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L442-443), [link 3](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L506-508)
 - [x] Optimize script logic - [link 1](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L446-453), [link 2](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L511-520), [link 3](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/js/main.js#L540-557)
 - [x] Reduce `re-paint` - [link 1](https://github.com/jojoee/frontend-nanodegree-mobile-portfolio/blob/master/views/css/style.css#L37-49)
 - [ ] Reduce CSS selector complexity
