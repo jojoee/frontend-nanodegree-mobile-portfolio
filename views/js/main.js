@@ -340,7 +340,7 @@ var makeRandomPizza = function() {
   var numberOfNonMeats = Math.floor((Math.random() * 3));
   var numberOfCheeses = Math.floor((Math.random() * 2));
 
-  // Micro Optimization: using "+=" operator
+  // Micro optimization: using "+=" operator
   for (var i = 0; i < numberOfMeats; i++) {
     pizza += ingredientItemizer(selectRandomMeat());
   }
@@ -439,7 +439,7 @@ var resizePizzas = function(size) {
         console.log("bug in sizeSwitcher");
     }
 
-    // Micro Optimization: using "getElementsByClassName" instead of "querySelector"
+    // Micro optimization: using "getElementsByClassName" instead of "querySelector"
     var $randomPizzaContainer = document.getElementsByClassName("randomPizzaContainer");
     var nRandomPizzaContainer = $randomPizzaContainer.length;
 
@@ -503,7 +503,7 @@ function updatePositions() {
   // Fix FSL issue by moving it out from "for" loop
   var topOffset = document.body.scrollTop;
 
-  // Micro Optimization:
+  // Micro optimization:
   // - Using "getElementsByClassName" instead of "querySelector"
   // - Use "++" operator instead of "%"
   var items = document.getElementsByClassName('mover');
